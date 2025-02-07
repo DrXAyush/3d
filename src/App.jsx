@@ -53,7 +53,7 @@ function App() {
         camera-controls
         ar
         ar-modes="webxr scene-viewer quick-look"
-        ar-scale="0.5"
+        ar-scale="1"
         className="w-full max-w-sm h-[400px]"
         onARTracking={(event) => setIsARActive(event.detail.state === 'tracking')}
       ></model-viewer>
