@@ -14,13 +14,13 @@ function App() {
       <h1 className="text-xl font-bold mb-4">3D Model Viewer with AR</h1>
       <model-viewer
         src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"  
-        // ios-src="/model.usdz"
+        ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
         alt="3D Model"
         auto-rotate
         camera-controls
         ar
         ar-modes="webxr scene-viewer quick-look"
-        ar-scale="0.1"
+        ar-scale="0.5"
         className="w-full max-w-sm h-[400px]"
       ></model-viewer>
     </div>
