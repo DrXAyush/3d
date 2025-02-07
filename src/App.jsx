@@ -18,7 +18,9 @@ function App() {
         alt="3D Model"
         auto-rotate
         camera-controls
+        disable-tap
         ar
+        ar-placement="floor"
         ar-modes="webxr scene-viewer quick-look"
         ar-scale="0.5"
         className="w-full max-w-sm h-[400px]"
